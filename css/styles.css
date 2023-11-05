@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Optima;
-  background-color: #FCF7FF;
+  background-color: #B0AA7E;
 }
 
 .center {
@@ -31,7 +31,7 @@ header {
 
 .panel {
   background-color: #3D441E;
-  color: #3D441E;
+  color: #B0AA7E;
 
   width: 100%;
   height: 30vh;
@@ -137,14 +137,14 @@ section {
 }
 
 section:nth-child(1) {
-  color: #e0ffff;
-  background-color: #e0ffff;
+  color: #f9f9f9;
+  background-color: #f9f9f9;
 
 }
 
 section:nth-child(2) {
 
-  background-color: #FCF7FF;
+  background-color: #B0AA7E;
 
 
 }
