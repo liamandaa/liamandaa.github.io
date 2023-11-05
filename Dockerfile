@@ -4,3 +4,24 @@
 #expose port 8080 and run the app
 #the docker lecture will help you complete this file 
 #there should be a total of 9 lines
+
+# Use the official Node.js image with Alpine Linux as base
+FROM node:10-alpine
+
+# Create a directory for the app and set node as the owner
+RUN mkdir -p /home/node/app && chown -R node:node /home/node/app
+
+# Set working directory inside the container
+WORKDIR /home/node/app
+
+# Copy package.json and package-lock.json to the working directory
+COPY . .
+
+# Install all packages in package.json
+RUN npm install
+
+# Expose port 8080 for incoming traffic
+EXPOSE 8080
+
+# Command to run the Node.js application
+CMD ["node", "app.js"]
