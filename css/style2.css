@@ -28,7 +28,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background: #655560;
+    background: #3D441E;
     padding: 20px;
     text-align: center;
 
@@ -40,7 +40,7 @@ header {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #655560;
+    background-color: #3D441E;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -48,7 +48,7 @@ header {
 
 .topnav a {
     float: right;
-    color: #f2f2f2;
+    color: #6D712E;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -63,7 +63,7 @@ header {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-    background-color: #878C8F;
+    background-color: #A2A569;
     color: white;
 }
 
@@ -98,13 +98,13 @@ section {
 }
 
 section:nth-child(1) {
-    color: #e0ffff;
-    background-color: #e0ffff;
+    color: #737B4C;
+    background-color: #737B4C;
 
 }
 
 section:nth-child(2) {
-    color: #42455a;
+    color: #6D712E;
     background-color: #FCF7FF;
     justify-content: right;
     align-items: right;
@@ -113,17 +113,17 @@ section:nth-child(2) {
 }
 
 section:nth-child(3) {
-    color: #42455a;
-    background: #C4CAD0
+    color: #6D712E;
+    background: #B0AA7E
 }
 
 section:nth-child(4) {
-    color: #42455a;
-    background: #e0ffff;
+    color: #6D712E;
+    background: #B0AA7E;
 }
 
 section:nth-child(5) {
-    color: #e0ffff;
+    color: #B0AA7E;
 }
 
 section .container {
