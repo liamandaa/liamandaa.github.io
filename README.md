@@ -1,18 +1,10 @@
 # cmsc388T-web-template
 
-## Color Family
-Light yellow: #FAF8D4
+## Github Pages Link
+https://liamandaa.github.io/
 
-Almond: #EBDCCB
-
-Dun: #C3BAAA
-
-Taupe Gray: #91818A
-
-Rose quartz: #B2A3B5
-
-## CSS
-.img -> where you can adjust image size
+## Terpconnect Link
+https://terpconnect.umd.edu/~ali12345/liamandaa.github.io/index.html
 
 ## Custom Changes
 I changed the colors on the website to green. 
