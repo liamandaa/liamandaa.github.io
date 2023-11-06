@@ -13,3 +13,6 @@ Rose quartz: #B2A3B5
 
 ## CSS
 .img -> where you can adjust image size
+
+## Custom Changes
+I changed the colors on the website to green. 
